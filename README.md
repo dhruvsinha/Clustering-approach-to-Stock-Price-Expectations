@@ -1,5 +1,6 @@
-# Clustering-approach-to-Stock-Price-Expectations
+# Clustering approach to stock price xxpectations
 
+## Abstract
 Creating reasonable and reliable expectations of the future, when faced with micronumerosity, is considered
 to be the pinnacle of financial forecasting . To obtain reliable forecasts, we employ an unsupervised machine
 learning algorithm to cluster companies listed in the Standard & Poor’s (S&P) index. We use 18 different
@@ -10,3 +11,10 @@ required to perform the task but also reduces the sample required by current tec
 prices. This paper, therefore, in addition to extending the sparse literature that exists on the intersection of
 machine learning and stock price prediction, also provides a new approach to thinking about the uses of the
 former in the financial domain.
+
+## Files Attached
+
+There are three important files attached in this repository. 
+1. processing.py: This script was used to collect and process the data
+2. ML.py: This script was used to train our KNN and regression models
+3. .pdf: This is the final project report
