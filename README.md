@@ -18,3 +18,25 @@ There are three important files attached in this repository.
 1. processing.py: This script was used to collect and process the data
 2. ML.py: This script was used to train our KNN and regression models
 3. .pdf: This is the final project report
+
+## Methodology
+
+As stated above, we used 18 different financial attributes to perform clustering
+
+### Clustering
+We adopted the k-means clustering algorithm for the first stage of this exercise, implemented through
+the scikit-learn library in Python. There were a number of key parameters to be identified, all of which are
+listed below:
+1. n - number of clusters.The performance metrics used to
+compare cluster size (n) are:
+1. Homogeneity Score - Proportion of clusters that have companies with a homogeneous Industry label.
+2. Completeness Score - Proportion of Industries for which all companies are in the same cluster.
+3. V-Measure - Harmonic mean of Homogeneity and Completeness.
+4. Inertia - Mean squared distance between each company and its closest centroid.
+5. Silhouette Score - It is defined for each instance i as (di,j − dc)/max(di,j , dc), where di,j is the mean
+distance to other instances in the nearest cluster and dc is the distance across clusters.
+2. n init - number of times the algorithm is run with different centroid seeds.
+3. algorithm - either naive k-means (lloyd) or triangle inequality-based variation (elkan)
+
+
+
