@@ -52,3 +52,20 @@ Once each company is assigned into a cluster, we break up the dataset consisting
 smaller chunks. Each chunk contains the data just for companies within a single cluster, resulting in a total
 of 6 smaller datasets, each with the dimension $756 N_i$, where $N_i$ represents the number of companies in cluster i (same as the companies in dataset i). We then operate on each cluster i individually, where we iterate over every single company Ci
 in that cluster and use $C_i$’s stock price as the target variable y and the stock price for all other companies $C_{j \neq i}$ as the input features X.
+
+## Results
+
+In our exploration we find that the data, at least in 18 dimensions, is not very separable. Nonetheless,
+we attempt to visualise our results by plotting the two most populated clusters on a combination of two
+dimensions below:
+
+| ![k_means_clustering.jpg](/stock_price/cluster_1.jpg) | 
+|:--:| 
+||
+
+In Figure 2(a), companies with a higher Receivables Turnover and lower Debt/Equity tend to be in Cluster 1, whereas companies with a higher Debt/Equity and somewhat lower Receivables Turnover generally
+appear in Cluster 2. This indicates that Cluster 1 contains companies that are more efficient in getting their
+short-term payments from clients and do so without the overhead of long-term debt, indicating that these
+companies are financially more stable. More simply, these companies are at least above-average performers in
+terms of financial soundness. On the other hand, companies in Cluster 2 are those with greater Debt/Equity,
+which makes them more leveraged than the average company.
