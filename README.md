@@ -50,5 +50,5 @@ We pick 6 as the cluster size. The justification for this cluster size is explai
 
 Once each company is assigned into a cluster, we break up the dataset consisting of stock price data into
 smaller chunks. Each chunk contains the data just for companies within a single cluster, resulting in a total
-of 6 smaller datasets, each with the dimension $756*N_i$, where $N_i$ represents the number of companies in cluster i (same as the companies in dataset i). We then operate on each cluster i individually, where we iterate over every single company Ci
+of 6 smaller datasets, each with the dimension $756 N_i$, where $N_i$ represents the number of companies in cluster i (same as the companies in dataset i). We then operate on each cluster i individually, where we iterate over every single company Ci
 in that cluster and use $C_i$’s stock price as the target variable y and the stock price for all other companies $C_{j\neqi}$ as the input features X.
