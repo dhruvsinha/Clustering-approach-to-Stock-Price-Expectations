@@ -70,6 +70,17 @@ companies are financially more stable. More simply, these companies are at least
 terms of financial soundness. On the other hand, companies in Cluster 2 are those with greater Debt/Equity,
 which makes them more leveraged than the average company.
 
+Likewise, in Figure 2(b), companies classified into Cluster 2 are those with a lower-than-average Return
+on Assets, even though their Price-to-Sales ratio is not markedly different from companies in Cluster 1.
+This suggests that companies in Cluster 2 are those that did not perhaps make the best available use of
+their assets—possibly taking risks that did not pay off, or not innovating enough—when compared to their
+industry averages. In other words, these companies are less efficient with their use of capital than their
+counterparts in Cluster 1. From an investor’s standpoint, companies in Cluster 1 represent a better avenue
+to grow their investment, which is akin to saying that they are better-than-average performers (thereby explaining the sometimes higher Price-to-Sales that the market is willing to pay to buy into these companies’
+growth)
+
+The report has detailed analysis on cluster and what each clustier intuitively signifies. 
+
 ## Conclusion
 
 Our primary aim for this exercise was to find companies that were similar to a given company, allowing
