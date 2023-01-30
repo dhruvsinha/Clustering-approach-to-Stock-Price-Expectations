@@ -1,4 +1,4 @@
-# Clustering approach to stock price xxpectations
+# Clustering approach to stock price expectations
 
 ## Abstract
 Creating reasonable and reliable expectations of the future, when faced with micronumerosity, is considered
