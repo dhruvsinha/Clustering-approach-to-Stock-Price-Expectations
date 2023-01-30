@@ -40,5 +40,7 @@ The performance metrics used to compare cluster size (n) are:
 distance to other instances in the nearest cluster and dc is the distance across clusters.
 
 
-
+| ![k_means_clustering.jpg](/stock_price/k_means_clustering.jpg) | 
+|:--:| 
+||
 
