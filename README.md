@@ -45,3 +45,15 @@ distance to other instances in the nearest cluster and dc is the distance across
 ||
 
 We pick 6 as the cluster size. The justification for this cluster size is explained in the project report. 
+
+### Regression
+
+Once each company is assigned into a cluster, we break up the dataset consisting of stock price data into
+smaller chunks. Each chunk contains the data just for companies within a single cluster, resulting in a total
+of 6 smaller datasets, each with the dimension $756*N_i$, where Ni represents the number of companies in
+cluster i (same as the companies in dataset i).
+We then operate on each cluster i individually, where we iterate over every single company Ci
+in that
+cluster and use Ci
+’s stock price as the target variable y and the stock price for all other companies Cj6=i
+as the input features X.
