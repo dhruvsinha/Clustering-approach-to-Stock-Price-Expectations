@@ -63,9 +63,22 @@ dimensions below:
 |:--:| 
 ||
 
-In Figure 2(a), companies with a higher Receivables Turnover and lower Debt/Equity tend to be in Cluster 1, whereas companies with a higher Debt/Equity and somewhat lower Receivables Turnover generally
+In Figure 2(a), companies with a higher Receivables Turnover and lower Debt/Equity tend to be in Cluster 1, whereas companies with a higher Debt/Equity and somewhat lower Receivables Turnover generally
 appear in Cluster 2. This indicates that Cluster 1 contains companies that are more efficient in getting their
 short-term payments from clients and do so without the overhead of long-term debt, indicating that these
 companies are financially more stable. More simply, these companies are at least above-average performers in
 terms of financial soundness. On the other hand, companies in Cluster 2 are those with greater Debt/Equity,
 which makes them more leveraged than the average company.
+
+## Conclusion
+
+Our primary aim for this exercise was to find companies that were similar to a given company, allowing
+a potential investor to use those companies as a means of forming and managing expectations about the
+company’s future stock price path, particularly for new companies with limited past data. We find that it
+is possible to cluster companies into performance-based categories, such that a company’s stock price path
+can be semi-reliably predicted using other companies in its cluster. Nonetheless, we do not assert that this
+framework necessarily allows an individual to predict the stock price of a company at a particular point in
+time. Rather, it allows investors to potentially use a larger (in a temporal sense) dataset of historical stock
+price data to chart expectations for a new company, i.e. create a focused confidence interval for its future
+price path. Thus, we believe that this research, if effective, can help assuage a key problem in time series
+forecasting - overcoming the small-sample problem to reliably manage expectations.
