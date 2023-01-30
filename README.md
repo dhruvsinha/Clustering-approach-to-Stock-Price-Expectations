@@ -44,3 +44,4 @@ distance to other instances in the nearest cluster and dc is the distance across
 |:--:| 
 ||
 
+We pick 6 as the cluster size. The justification for this cluster size is explained in the project report. 
